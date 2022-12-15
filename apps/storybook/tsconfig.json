@@ -1,0 +1,8 @@
+{
+  "extends": "tsconfig/nextjs.json",
+  "compilerOptions": {
+    "lib": ["dom", "ES2015"]
+  },
+  "include": ["."],
+  "exclude": ["docs", "node_modules"]
+}

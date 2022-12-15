@@ -1,0 +1,36 @@
+{
+  "name": "@example/storybook",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build --docs",
+    "preview-storybook": "serve storybook-static",
+    "clean": "rm -rf .turbo node_modules",
+    "typecheck": "tsc --noEmit",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@example/core": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.8",
+    "@storybook/addon-interactions": "^7.0.0-beta.8",
+    "@storybook/addon-links": "^7.0.0-beta.8",
+    "@storybook/blocks": "^7.0.0-beta.8",
+    "@storybook/builder-vite": "^7.0.0-beta.8",
+    "@storybook/react": "^7.0.0-beta.8",
+    "@storybook/react-vite": "^7.0.0-beta.8",
+    "@storybook/testing-library": "^0.0.13",
+    "@vanilla-extract/vite-plugin": "^3.7.0",
+    "eslint": "^8.29.0",
+    "eslint-config-custom": "workspace:*",
+    "serve": "^14.1.2",
+    "storybook": "^7.0.0-beta.8",
+    "tsconfig": "workspace:*",
+    "typescript": "4.9.3",
+    "vite": "^3.2.5"
+  }
+}
