@@ -1,4 +1,5 @@
-import { ThemeProvider, Theme } from "@example/core";
+import { ThemeProvider, Theme } from "@example/theme";
+import "@example/theme/dist/index.css";
 import "@example/core/dist/index.css";
 
 export const parameters = {

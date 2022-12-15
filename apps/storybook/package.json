@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@example/core": "workspace:*",
+    "@example/theme": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
